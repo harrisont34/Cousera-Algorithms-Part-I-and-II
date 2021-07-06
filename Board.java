@@ -10,6 +10,8 @@
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.Queue;
 
+// comment
+
 public class Board {
 
     private final int[][] board;
