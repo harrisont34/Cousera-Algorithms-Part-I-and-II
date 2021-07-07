@@ -10,8 +10,6 @@
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.Queue;
 
-// comment
-
 public class Board {
 
     private final int[][] board;
@@ -24,7 +22,9 @@ public class Board {
     // where tiles[row][col] = tile at (row, col)
     public Board(int[][] tiles) {
 
-        if (tiles == null) throw new IllegalArgumentException();
+        if (tiles == null) {
+            throw new IllegalArgumentException();
+        }
 
         width = tiles[0].length;
         this.board = new int[width][width];
